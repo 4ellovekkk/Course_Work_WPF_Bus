@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         TextElement.FontWeight="Medium"
         TextElement.FontSize="16"		
-        Title="User_cabinet" Height="700" Width="1000" Icon="C:\Users\User\Desktop\kp\aaaa\WpfApp1\pics\logo.ico">
+        Title="User_cabinet" Height="700" Width="1000" Icon="C:\Users\User\Desktop\kp\aaaa\Course_Work_WPF_Bus\WpfApp1\pics\logo.ico">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"></RowDefinition>
@@ -23,10 +23,10 @@
                     <Image x:Name="X" Height="20px" Width="24"  HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10,0,5,0" MouseDown="X_MouseDown" >
                         <Image.Style>
                             <Style TargetType="{x:Type Image}">
-                                <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\WpfApp1\pics\cross.png"/>
+                                <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\Course_Work_WPF_Bus\WpfApp1\pics\cross.png"/>
                                 <Style.Triggers>
                                     <DataTrigger Binding="{Binding IsMouseOver, ElementName=X}" Value="True">
-                                        <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\WpfApp1\pics\cross-button.png"/>
+                                        <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\Course_Work_WPF_Bus\WpfApp1\pics\cross-button.png"/>
                                     </DataTrigger>
                                 </Style.Triggers>
                             </Style>
@@ -36,10 +36,10 @@
                     <Image x:Name="O" Height="20px" Width="25px" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,10,0" MouseDown="O_MouseDown">
                         <Image.Style>
                             <Style TargetType="{x:Type Image}">
-                                <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\WpfApp1\pics\circle.png"/>
+                                <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\Course_Work_WPF_Bus\WpfApp1\pics\circle.png"/>
                                 <Style.Triggers>
                                     <DataTrigger Binding="{Binding IsMouseOver, ElementName=O}" Value="True">
-                                        <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\WpfApp1\pics\circle-button.png"/>
+                                        <Setter Property="Source" Value="C:\Users\User\Desktop\kp\aaaa\Course_Work_WPF_Bus\WpfApp1\pics\circle-button.png"/>
                                     </DataTrigger>
                                 </Style.Triggers>
                             </Style>
