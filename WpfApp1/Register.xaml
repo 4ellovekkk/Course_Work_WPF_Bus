@@ -49,13 +49,13 @@
         </Grid>
         <Grid Grid.Row="1">
             <TextBlock Foreground="Black" Margin="10,5,10,10" Name="form_name" HorizontalAlignment="Center">Форма Регистрации Пользователя</TextBlock>
-            <TextBox  x:Name="Name" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,35,0,0"  Background="LightGray">Введите имя</TextBox>
-            <TextBox  x:Name="Surname" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,85,0,0"  Background="LightGray" >Введите фамилию</TextBox>
-            <TextBox  x:Name="Email" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,135,0,0"   Background="LightGray">Введите Email</TextBox>
-            <TextBox  x:Name="Login" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,189,0,0"   Background="LightGray">Введите Логин</TextBox>
-            <TextBox  x:Name="Password" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,238,0,0"   Background="LightGray">Введите Пароль</TextBox>
-            <TextBox  x:Name="Password_conf" Height="30px" Width="200" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"   Background="LightGray">Повторите Пароль</TextBox>
-            <DatePicker x:Name="DateOfBirth" Width="150" Height="150" Margin="10,362,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="LightGray"></DatePicker>
+            <TextBox  x:Name="Name" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,35,0,0"  BorderThickness="1" BorderBrush="Black" Background="White">Введите имя</TextBox>
+            <TextBox  x:Name="Surname" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,85,0,0"  BorderThickness="1" BorderBrush="Black" Background="White" >Введите фамилию</TextBox>
+            <TextBox  x:Name="Email" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,135,0,0"   BorderThickness="1" BorderBrush="Black" Background="White">Введите Email</TextBox>
+            <TextBox  x:Name="Login" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,189,0,0"   BorderThickness="1" BorderBrush="Black" Background="White">Введите Логин</TextBox>
+            <TextBox  x:Name="Password" Height="30px" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,238,0,0"   BorderThickness="1" BorderBrush="Black" Background="White">Введите Пароль</TextBox>
+            <TextBox  x:Name="Password_conf" Height="30px" Width="200" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"   BorderThickness="1" BorderBrush="Black" Background="White">Повторите Пароль</TextBox>
+            <DatePicker x:Name="DateOfBirth" Width="150" Height="150" Margin="10,362,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Background="White"></DatePicker>
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="15,0,0,254">Выберите дату рождения</TextBlock>
             <Button Height="60" Width="170" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20" Click="RegisterButton_Click">Зарегистрироваться</Button>
         </Grid>

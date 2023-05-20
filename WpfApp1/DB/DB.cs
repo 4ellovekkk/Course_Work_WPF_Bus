@@ -1,4 +1,4 @@
-﻿using CourseProjectWPF.Views;
+﻿using WpfApp1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace WpfApp1.DB
 
     class DB
     {
-        public static string Hash(string input)
+      /*  public static string Hash(string input)
         {
             try
             {
@@ -28,10 +28,10 @@ namespace WpfApp1.DB
             {
                 return "Ошибка";
             }
-        }
+        }*/
 
         //анимация
-        /*public static void ShowLoader()
+      /*  public static void ShowLoader()
         {
             try
             {

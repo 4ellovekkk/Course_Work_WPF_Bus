@@ -61,7 +61,7 @@
         </Grid>
         <Grid Grid.Row="2">
             <TextBlock TextAlignment="Center" Width="144" Height="30" Margin="93,26,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Ближайшие рейсы</TextBlock>
-            <DataGrid  AutoGenerateColumns="False" Width="500" HorizontalAlignment="Left" Margin="10,102,0,-92" Background="LightGray">
+            <DataGrid  AutoGenerateColumns="False" Width="500" HorizontalAlignment="Left" Margin="10,102,0,-92" BorderThickness="1" BorderBrush="Black" Background="White">
                 <DataGrid.Resources>
 
                 </DataGrid.Resources>

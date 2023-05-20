@@ -15,21 +15,17 @@ namespace WpfApp1.Models
         [Key]
         public int Id { get; set; }
         public Voyage Path { get; set; }
-        public string _name { get; set; }
         public string _time { get; set; }
-        public string _date { get; set; }
-        public string _car { get; set; }
-        public bool _how_often { get; set; }
+        public int _car { get; set; }
+        public string _how_often { get; set; }
         
-        public Route(string name, string time,string date,string sign,Voyage obj, bool how_often)
+        public Route(string name, string time,string date,int sign,Voyage obj, string how_often)
         {
             Random rnd = new Random();
             
             Id = rnd.Next(1, 999);
-            _name = name;
             Path = obj;
             _time = time;
-            _date = date;
             _car = sign;
             _how_often = how_often;
         }

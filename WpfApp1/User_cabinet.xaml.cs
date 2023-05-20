@@ -1,4 +1,4 @@
-﻿using KP_speedrun.Models;
+﻿using WpfApp1.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using System.Data.Entity;
 namespace WpfApp1
 {
     /// <summary>
@@ -34,5 +34,6 @@ namespace WpfApp1
                 window.WindowState = WindowState.Minimized; // Устанавливаем состояние окна в "свернуто"
             }
         }
+                
     }
 }

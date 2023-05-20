@@ -11,7 +11,7 @@ namespace WpfApp1.Models
         public int Id { get; set; }
         public int UserId {get; set; }
         public int RouteID { get; set; }
-        public int Price { get; set; }
+        public float Price { get; set; }
         public int Amount { get; set; }
         public string time_ordered { get; set; }
     }

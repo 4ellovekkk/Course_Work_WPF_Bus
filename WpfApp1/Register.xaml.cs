@@ -67,11 +67,6 @@ namespace WpfApp1
             }
 
             // Проверка поля "Отчество"
-            if (string.IsNullOrWhiteSpace(Thirdname.Text))
-            {
-                MessageBox.Show("Введите отчество.");
-                return false;
-            }
 
             // Проверка поля "Email" с использованием регулярного выражения
             if (!Regex.IsMatch(Email.Text, @"^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$"))

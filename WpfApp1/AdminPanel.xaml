@@ -55,24 +55,24 @@
         </Grid>
         <Grid Grid.Row="2">
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0"> Начальная точка</TextBlock>
-            <TextBox Width="200px" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,26,0,0" Background="LightGray" Foreground="Black" RenderTransformOrigin="0.452,0.151"></TextBox>
-            <TextBox Width="200px" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Background="LightGray" Foreground="Black" Margin="10,97,0,0"></TextBox>
+            <TextBox Width="200px" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,26,0,0" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" RenderTransformOrigin="0.452,0.151"></TextBox>
+            <TextBox Width="200px" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Margin="10,97,0,0"></TextBox>
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,71,0,0" RenderTransformOrigin="0.435,-0.374"> Конечная точка</TextBlock>
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,140,0,0"> Время в пути</TextBlock>
-            <TextBox Width="200px" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Background="LightGray" Foreground="Black" Margin="10,175,0,0"></TextBox>
+            <TextBox Width="200px" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Margin="10,175,0,0"></TextBox>
             <Button Width="100" x:Name="Path_add" Foreground="White" Background="#FF33C2F7" Margin="34,243,866,10">Добавить</Button>
             <Button Width="100" x:Name="Route_add" Foreground="White" Background="#FF33C2F7" Margin="840,243,60,10">Добавить</Button>
 
-            <TextBox HorizontalAlignment="Right" TextAlignment="Center" VerticalAlignment="Top" Margin="0,26,10,0" Background="LightGray" Foreground="Black" Width="200" Height="40">Название</TextBox>
-            <ListBox VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="40" Background="LightGray" Foreground="Black" Margin="790,97,0,0">Выберите маршрут</ListBox>
-            <ListBox VerticalAlignment="Top" HorizontalAlignment="Right" Width="200" Height="40" Background="LightGray" Foreground="Black" Margin="0,155,10,0">Выберите регулярность</ListBox>
+            <TextBox HorizontalAlignment="Right" TextAlignment="Center" VerticalAlignment="Top" Margin="0,26,10,0" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Width="200" Height="40">Название</TextBox>
+            <ListBox VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="40" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Margin="790,97,0,0">Выберите маршрут</ListBox>
+            <ListBox VerticalAlignment="Top" HorizontalAlignment="Right" Width="200" Height="40" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Margin="0,155,10,0">Выберите регулярность</ListBox>
         </Grid>
         <Grid Grid.Row="3">
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,20">Добавление транспорта</TextBlock>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Background="LightGray" Foreground="Black" Width="200" Height="40" Margin="10,40,10,10" TextAlignment="Center">Марка</TextBox>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Background="LightGray" Foreground="Black" Width="200" Height="40" Margin="10,120,10,10" TextAlignment="Center">Модель</TextBox>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Background="LightGray" Foreground="Black" Width="200" Height="40" Margin="10,200,10,10" TextAlignment="Center">Цвет</TextBox>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" Background="LightGray" Foreground="Black" Width="200" Height="40" Margin="256,40,0,0" TextAlignment="Center">Кол-во мест</TextBox>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Width="200" Height="40" Margin="10,40,10,10" TextAlignment="Center">Марка</TextBox>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Width="200" Height="40" Margin="10,120,10,10" TextAlignment="Center">Модель</TextBox>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Width="200" Height="40" Margin="10,200,10,10" TextAlignment="Center">Цвет</TextBox>
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1" BorderBrush="Black" Background="White" Foreground="Black" Width="200" Height="40" Margin="256,40,0,0" TextAlignment="Center">Кол-во мест</TextBox>
             <Button Width="100" x:Name="Bus_add" Foreground="White" Background="#FF33C2F7" Margin="450,204,450,44">Добавить</Button>
 
         </Grid>
