@@ -21,6 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class Personal_data : Window
     {
+        private User_cabinet ?bebra;
         public Personal_data()
         {
             InitializeComponent();
@@ -33,7 +34,20 @@ namespace WpfApp1
                 // Продолжайте с регистрационной логикой здесь
                 // ...
                 MessageBox.Show("Регистрация успешна!");
+                this.Close();
+                if (bebra == null)
+                {
+                    // Создание экземпляра второго окна
+                    User_cabinet bebra = new User_cabinet();
+                    bebra.Show();
+                }
+                else
+                {
+                    // Если второе окно уже открыто, просто активируем его
+                    bebra.Activate();
+                }
             }
+            
         }
 
         private bool ValidateForm()

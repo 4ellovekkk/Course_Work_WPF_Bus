@@ -28,10 +28,10 @@ namespace WpfApp1.DB
             {
                 return "Ошибка";
             }
-        }*/
+        }*//*
 
         //анимация
-      /*  public static void ShowLoader()
+      *//*  public static void ShowLoader()
         {
             try
             {

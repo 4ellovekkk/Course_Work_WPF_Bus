@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WpfApp1.Models
 {
-   public class Voyage
+    internal class select_res
     {
-        public string start_point { get; set; }
+        public string strat_point { get; set; }
         public string end_point { get; set; }
-        public int id { get; set; }
-        
+        public string timer { get; set; }
+        public string otxod { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿<Window x:Class="WpfApp1.Home"
+﻿<Window ResizeMode="NoResize" x:Class="WpfApp1.Home"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         TextElement.FontWeight="Medium"
         TextElement.FontSize="16"		
-        Title="Home" Height="700" Width="1200" ShowInTaskbar="False">
+        Title="Home" Height="700" Width="1250" WindowStyle="None" >
 
     <Grid>
         <Grid.RowDefinitions>
@@ -53,20 +53,17 @@
         </Grid>
         <Grid Grid.Row="1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10">Главная</Button>
-                <Button Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10">Популярные рейсы</Button>
-                <Button Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10">Подобрать по дате</Button>
-                <Button Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10">Профиль</Button>
+               <Button BorderThickness="1" BorderBrush="Black" Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10">Главная</Button>
+               <Button BorderThickness="1" BorderBrush="Black" Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10">Популярные рейсы</Button>
+               <Button BorderThickness="1" BorderBrush="Black" Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10" Click="Button_Click">Подобрать по дате</Button>
+               <Button BorderThickness="1" BorderBrush="Black" Foreground="White" Background="#FF33C2F7" Width="Auto" Margin="10,10,10,10" Click="Profile_Click" >Профиль</Button>
             </StackPanel>
         </Grid>
         <Grid Grid.Row="2">
             <TextBlock TextAlignment="Center" Width="144" Height="30" Margin="93,26,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">Ближайшие рейсы</TextBlock>
-            <DataGrid  AutoGenerateColumns="False" Width="500" HorizontalAlignment="Left" Margin="10,102,0,-92" BorderThickness="1" BorderBrush="Black" Background="White">
-                <DataGrid.Resources>
-
-                </DataGrid.Resources>
+            <DataGrid x:Name="Table1" Width="500" HorizontalAlignment="Left" Margin="10,102,0,-92" BorderThickness="1" BorderBrush="Black" Background="AliceBlue" Foreground="Black">
+              
             </DataGrid>
-            <Button Width="100px" Height="50" VerticalAlignment="Top" Margin="534,31,566,0">Заказать</Button>
             <Calendar Margin="685,106,10,-92" Foreground="Black" Background="AliceBlue" />
 
 

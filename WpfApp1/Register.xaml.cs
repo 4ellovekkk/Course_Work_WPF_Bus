@@ -21,6 +21,7 @@ namespace WpfApp1
     /// </summary>
     public partial class Register : Window
     {
+        private Home ?usr_cab;
         public Register()
         {
             InitializeComponent();
@@ -33,6 +34,19 @@ namespace WpfApp1
                 // Продолжайте с регистрационной логикой здесь
                 // ...
                 MessageBox.Show("Регистрация успешна!");
+                this.Close();
+                if (usr_cab == null)
+                {
+                    // Создание экземпляра второго окна
+                    Home bebra = new Home();
+                    bebra.Show();
+                    this.Close();
+                }
+                else
+                {
+                    // Если второе окно уже открыто, просто активируем его
+                    usr_cab.Activate();
+                }
             }
         }
 
@@ -106,5 +120,6 @@ namespace WpfApp1
                 window.WindowState = WindowState.Minimized; // Устанавливаем состояние окна в "свернуто"
             }
         }
+        
     }
 }

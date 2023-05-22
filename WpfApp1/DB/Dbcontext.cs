@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using System.Windows;
 
 namespace WpfApp1.DB
 {
@@ -21,6 +24,7 @@ namespace WpfApp1.DB
         {
             optionsBuilder.UseSqlServer("Server=(VYDRA-PC)\\mssqllocaldb;Database=Course_Work_WPF_Bus;TrustedConnection=True;");
         }
+
     }
     
 }
